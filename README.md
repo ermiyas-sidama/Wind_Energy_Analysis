@@ -33,4 +33,16 @@ The data's in the file are:
 - __Theoretical_Power_Curve__ (KWh): The theoretical power values that the turbine generates with that wind speed which is given by the turbine manufacturer
 - __Wind Direction__ (°): The wind direction at the hub height of the turbine (wind turbines turn to this direction automaticly)
 
+## Data Preprocessing
+- Drop negative and zero LV Activepower
+- Seasonal decomposition in time series analysis is a crucial technique used to separate a time series into its fundamental components.
+
+Trend: The long-term movement or direction in the data, indicating the general tendency of the series (e.g., upward, downward).
+Seasonality: Regular, repeating patterns or cycles in the data that occur at fixed intervals (e.g., daily, monthly, yearly).
+Residual (or Irregular): The random noise or irregular component, which represents the fluctuations that cannot be attributed to trend or seasonality.
+To show the seasonal decomposition clearly I limited the dataset to 100 records only.
+### Seasonal decomposition of LV Activepower
+![image](https://github.com/ermiyas-sidama/Wind_Energy_Power_Analysis/assets/160514617/be1a47c7-9b7d-4f71-9deb-edcfdbd99d63)
+
+
 
