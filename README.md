@@ -35,6 +35,7 @@ The data's in the file are:
 
 ## Data Preprocessing
 - Drop negative and zero LV Activepower
+- Stationarty Check
 - Seasonal decomposition in time series analysis is a crucial technique used to separate a time series into its fundamental components.
 
 Trend: The long-term movement or direction in the data, indicating the general tendency of the series (e.g., upward, downward).
