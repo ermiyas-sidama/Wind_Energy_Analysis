@@ -42,10 +42,47 @@ Trend: The long-term movement or direction in the data, indicating the general t
 Seasonality: Regular, repeating patterns or cycles in the data that occur at fixed intervals (e.g., daily, monthly, yearly).
 Residual (or Irregular): The random noise or irregular component, which represents the fluctuations that cannot be attributed to trend or seasonality.
 To show the seasonal decomposition clearly I limited the dataset to 100 records only.
-####                                Seasonal_decomposition_of_LV_Activepower
+#### Seasonal_decomposition_of_LV_Activepower
 
 
 ![image](https://github.com/ermiyas-sidama/Wind_Energy_Power_Analysis/assets/160514617/be1a47c7-9b7d-4f71-9deb-edcfdbd99d63)
+## Analysis / Modeling
+For the wind energy power analysis AutoRegressive Integrated Moving Average model(__ARIMA__) is used to forcast the power output in hourly bases.
+Two Data Points: I used two sets of data for testing the baseline model.
+
+- __Long_Term_Forecasting__: This involves predicting outcomes far into the future. However, the baseline model didn't perform well with this dataset, possibly due to the complexity of long-term trends or insufficient data.
+
+- __Short_Term_Forecasting__: Predicting outcomes in the near future. The baseline model performed better with this dataset, which could be because short-term trends are easier to capture or there's more data available for short-term analysis.
+Then, Gridsearch and Auto ARIMA is used to tune our hyperparameters. Based on this, the best model was __ARIMA(3,1,2)__ which has a mean absolute error of __13%__.
+#### The best model prediction has a mean absolute error of 13%
+
+![image](https://github.com/ermiyas-sidama/Wind_Energy_Power_Analysis/assets/160514617/79322e31-0cb9-42e3-8edc-d88cf768fd1f)
+
+
+## Conclusion
+
+
+## Future Investigations
+
+
+## For More Information
+Please review full analysis in jupyter notebook ([Wind energy power analysis](https://github.com/ermiyas-sidama/Wind_Energy_Power_Analysis/blob/main/Wind_Energy_Power_Analysis.ipynb))
+And also refer to the ([Presentation](https://github.com/ermiyas-sidama/Wind_Energy_Power_Analysis/blob/main/Wind_Energy_Power_Analysis.ipynb))
+
+## Contributor
+
+[Ermiyas Sidama](https://github.com/ermiyas-sidama)
+
+
+## Repository Structure
+```
+|— README.md                                                 <- The top-level README for reviewers of this project
+|— Wind energy power analysis.ipynb                          <- Interactive computing environment including analysis in Jupyter notebook
+|— .gitignore                                                <- gitignore exclude selected file execute
+|— Data                                                      <- Both sourced externally and generated from code
+    |— T1.csv                                                <- Raw data 
+|_ presentation.pdf                                          <- PDF version of project presentation
+```
 
 
 
