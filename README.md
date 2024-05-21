@@ -43,9 +43,8 @@ Seasonality: Regular, repeating patterns or cycles in the data that occur at fix
 Residual (or Irregular): The random noise or irregular component, which represents the fluctuations that cannot be attributed to trend or seasonality.
 To show the seasonal decomposition clearly I limited the dataset to 100 records only.
 <p align="center">
-### Seasonal decomposition of LV Activepower
+**Seasonal decomposition of LV Activepower**
 </p>
-
 
 ![image](https://github.com/ermiyas-sidama/Wind_Energy_Power_Analysis/assets/160514617/be1a47c7-9b7d-4f71-9deb-edcfdbd99d63)
 
