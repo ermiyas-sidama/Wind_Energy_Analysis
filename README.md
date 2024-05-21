@@ -45,6 +45,8 @@ To show the seasonal decomposition clearly I limited the dataset to 100 records 
 <p align="center">
 ### Seasonal decomposition of LV Activepower
 </p>
+
+
 ![image](https://github.com/ermiyas-sidama/Wind_Energy_Power_Analysis/assets/160514617/be1a47c7-9b7d-4f71-9deb-edcfdbd99d63)
 
 
