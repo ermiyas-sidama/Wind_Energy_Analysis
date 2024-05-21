@@ -58,7 +58,9 @@ Then, Gridsearch and Auto ARIMA is used to tune our hyperparameters. Based on th
 
 ![image](https://github.com/ermiyas-sidama/Wind_Energy_Power_Analysis/assets/160514617/79322e31-0cb9-42e3-8edc-d88cf768fd1f)
 
-
+- __mae__  : 0.13162599893754348
+- __mape__ : 0.12245984700173755
+- __rmse__ : 0.1547621523674663
 ## Conclusion
 
 
