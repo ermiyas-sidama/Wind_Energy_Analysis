@@ -62,12 +62,21 @@ Here are the metrics for the best model
 - __mae__  : 0.13162599893754348
 - __mape__ : 0.12245984700173755
 - __rmse__ : 0.1547621523674663
+Logistic regression is used, to assess the performance of the wind turbine power output compared to the theoretical power.To do that iw was needed to create the Target column, which is the ratio of the LV Activepower and Theoretical_power_curve. Based on this the model is created.
+The logistic regression model achieved an impressive accuracy of 99%, indicating a high level of precision in predicting the performance of the wind turbine power output compared to the theoretical power. This suggests that the model is highly effective and reliable for this classification task, successfully distinguishing between well-performing and underperforming power outputs with minimal error.
   
 ## Conclusion
+The time series power analysis model using ARIMA(3,1,2) demonstrated strong capabilities for short-term forecasting, providing good predictions and achieving a mean absolute error of 13%. However, when applied to long-term forecasting, the model fell short, This suggests that the ARIMA model struggles with capturing the complexities and variabilities inherent in long-term data. To address this limitation, it is necessary to explore more advanced modeling techniques that can better handle long-term dependencies and non-linear patterns in the data.
+
+In contrast, the logistic regression model exhibited excellent performance in classifying wind energy output relative to theoretical expectations. With an impressive accuracy score of 99%, the logistic regression model proved highly effective in identifying whether the wind turbine's actual power output was within an acceptable range of its theoretical power curve. This high level of accuracy indicates that logistic regression is a robust tool for assessing wind turbine performance, providing reliable insights that can inform operational and maintenance decisions.
+
+Overall, while ARIMA remains a valuable tool for short-term forecasting, its limitations for long-term predictions highlight the need for more sophisticated models. Meanwhile, logistic regression has proven to be a powerful method for evaluating wind energy performance, offering high accuracy and reliability. Further research and model development are recommended to enhance long-term forecasting accuracy and continue improving wind energy performance assessment.
 
 
 ## Future Investigations
-
+- Additional data from multiple years is needed to improve long-term forecasting.
+- The dataset should include the size and swept area of the turbine blade, as these factors significantly impact the power output.
+- Advanced modeling techniques that can better handle long-term dependencies and non-linear patterns in the data.
 
 ## For More Information
 Please review full analysis in jupyter notebook ([Wind energy power analysis](https://github.com/ermiyas-sidama/Wind_Energy_Power_Analysis/blob/main/Wind_Energy_Power_Analysis.ipynb))
