@@ -62,6 +62,7 @@ Here are the metrics for the best model
 - __mae__  : 0.13162599893754348
 - __mape__ : 0.12245984700173755
 - __rmse__ : 0.1547621523674663
+
 Logistic regression is used, to assess the performance of the wind turbine power output compared to the theoretical power.To do that iw was needed to create the Target column, which is the ratio of the LV Activepower and Theoretical_power_curve. Based on this the model is created.
 The logistic regression model achieved an impressive accuracy of 99%, indicating a high level of precision in predicting the performance of the wind turbine power output compared to the theoretical power. This suggests that the model is highly effective and reliable for this classification task, successfully distinguishing between well-performing and underperforming power outputs with minimal error.
   
