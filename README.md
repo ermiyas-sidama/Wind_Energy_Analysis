@@ -81,7 +81,7 @@ Overall, while ARIMA remains a valuable tool for short-term forecasting, its lim
 
 ## For More Information
 Please review full analysis in jupyter notebook ([Wind energy power analysis](https://github.com/ermiyas-sidama/Wind_Energy_Power_Analysis/blob/main/Wind_Energy_Power_Analysis.ipynb))
-And also refer to the ([Presentation](https://github.com/ermiyas-sidama/Wind_Energy_Power_Analysis/blob/main/Wind_Energy_Power_Analysis.ipynb))
+And also refer to the ([Presentation](https://www.canva.com/design/DAGF47W5bks/WeHgitxeJM0XHIzMhvGwpw/edit))
 
 ## Contributor
 
