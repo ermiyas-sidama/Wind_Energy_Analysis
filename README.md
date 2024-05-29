@@ -94,7 +94,8 @@ And also refer to the ([Presentation](https://www.canva.com/design/DAGF47W5bks/W
 |— Wind energy power analysis.ipynb                          <- Interactive computing environment including analysis in Jupyter notebook
 |— .gitignore                                                <- gitignore exclude selected file execute
 |— Data                                                      <- Both sourced externally and generated from code
-    |— T1.csv                                                <- Raw data 
+    |— T1.csv                                                <- Raw data
+    |— Cleaned_data                                          <- Cleaned data
 |_ presentation.pdf                                          <- PDF version of project presentation
 ```
 
